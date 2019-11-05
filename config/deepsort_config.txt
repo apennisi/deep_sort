@@ -1,0 +1,24 @@
+[DETECTION_FILE]
+/path/to/the/detection/file
+[IMAGE_DIRECTORY]
+/path/to/the/image/directory
+[METRIC_MODEL]
+../RUNNINGDATA/tensor_networks/111.meta
+[FEATURE_MODEL]
+../RUNNINGDATA/tensor_networks/mars-small128.ckpt-68577
+[ARGS_NN_BUDGET]
+100
+[ARGS_MAX_COSINE_DISTANCE]
+0.2
+[DT]
+1.0
+[MAX_IOU_DISTANCE]
+0.9
+[MAX_AGE]
+30
+[N_INIT]
+3
+[CLASSES]
+../config/classes.txt
+[SHOW_DETECTIONS] # 1 = true 0 = false
+1
