@@ -33,7 +33,7 @@ Deep Sort works under Linux environments. I recommend a so-called out of source 
 
 ## How to use
 
-Go to the bin diretory and launch the program with the following command:
+Go to the bin diretory and launch the program with the following commands:
 ```bash
 ./deep_sort /path/to/the/config/file
 e.g.:
