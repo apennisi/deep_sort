@@ -92,3 +92,5 @@ class3
 ...
 classN
 ```
+
+Please, for any comment send me an email to andrea[dot]pennisi[at]gmail[dot]com.
