@@ -14,7 +14,7 @@ A refactoring and tested version of <a href="https://github.com/bitzy/DeepSort">
 
 For installing the C++ API, I followed the following <a href="https://github.com/FloopCZ/tensorflow_cc">guide</a>. I included the repository inside the folder *tensorflow_cc*, where I modified some file for installing the 1.14 version of tensorflow.
 
-For compiling it, after satysfing the requirements listed in the <a href="https://github.com/FloopCZ/tensorflow_cc">official repository</a>, execute the following command:
+For compiling it, after satysfying the requirements listed in the <a href="https://github.com/FloopCZ/tensorflow_cc">official repository</a>, execute the following command:
 
 ```
 cmake -DTENSORFLOW_STATIC=OFF -DTENSORFLOW_SHARED=ON ..
