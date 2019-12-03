@@ -58,7 +58,7 @@ file(GLOB_RECURSE SRC_FILES "src/app/src/*.cpp" "src/features/*.cpp" "src/matchi
 
 #Library
 add_library(deepsort SHARED ${SRC_FILES})
-target_link_libraries(deepsort ${OpenCV_LIBS}  ${Boost_LIBRARIES} TensorflowCC::Shared tensorflow_framework ${CUDA_LIBRARIES})
+target_link_libraries(deepsort ${OpenCV_LIBS}  ${Boost_LIBRARIES} TensorflowCC::Shared  ${CUDA_LIBRARIES})
 
 add_executable(deep_sort ${SRC_FILES})
-target_link_libraries(deep_sort deepsort tensorflow_framework) #tensorflow_framework is required otherwise you get the error: "symbol _ZN10tensorflow27_SaverDef_default_instance_E version tensorflow not defined in file libtensorflow_cc.so.1 with link time reference"
+target_link_libraries(deep_sort deepsort)
